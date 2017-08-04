@@ -1,0 +1,632 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[10pt]{article}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+
+% Layout: Puts the section titles on left side of page
+\reversemarginpar
+
+%% Set up for letter-sized paper
+\usepackage[paper=letterpaper,
+marginparwidth=0.95In,     % Length of section titles
+marginparsep=0in,       % Space between titles and text
+margin=1in,               % 1 inch margins
+includemp]{geometry}
+
+%% More layout: Get rid of indenting throughout entire document
+\setlength{\parindent}{0in}
+
+%% Reference the last page in the page number
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+\fancyfootoffset{\marginparsep+\marginparwidth}
+\newlength{\footpageshift}
+\setlength{\footpageshift}
+{0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+\lfoot{\hspace{\footpageshift}%
+  \parbox{4in}{\, \hfill %
+    \arabic{page} of \protect\pageref*{LastPage}
+    \hfill \,}}
+
+%% PDF bookmarks
+\usepackage{color,hyperref}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\hypersetup{colorlinks,breaklinks,
+            linkcolor=darkblue,urlcolor=darkblue,
+            anchorcolor=darkblue,citecolor=darkblue}
+% for URLs
+\usepackage{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The title (name) with a horizontal rule under it
+%
+% Usage: \makeheading{name}
+%
+% Place at top of document. It should be the first thing.
+
+\newcommand{\makeheading}[1]{
+  \hspace*{-\marginparsep minus \marginparwidth}%
+  \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+    \begin{center}
+      {\large \bfseries #1}\\[-0.15\baselineskip]%      
+      \rule{\columnwidth}{1pt}%
+    \end{center}
+  \end{minipage}
+}
+
+% The section headings
+%
+% Usage: \section{section name}
+%
+% Follow this section IMMEDIATELY with the first line of the section
+% text. Do not put whitespace in between. That is, do this:
+%
+%       \section{My Information}
+%       Here is my information.
+%
+% and NOT this:
+%
+%       \section{My Information}
+%
+%       Here is my information.
+%
+% Otherwise the top of the section header will not line up with the top
+% of the section. Of course, using a single comment character (%) on
+% empty lines allows for the function of the first example with the
+% readability of the second example.
+\renewcommand{\section}[2]%
+        {\pagebreak[3]\vspace{1.3\baselineskip}%
+         \phantomsection\addcontentsline{toc}{section}{#1}%
+         \hspace{0in}%
+         \marginpar{
+         \raggedright \scshape #1}#2}
+
+% tabular styles for including dates in list of CV content
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+% \newcolumntype{L}{>{\raggedleft}p{0.19\textwidth}}
+\newcolumntype{L}{p{0.19\textwidth}}
+\newcolumntype{R}{p{0.81\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+% To compress itemized environments
+\usepackage{enumitem}
+\setlist{nolistsep}
+\setlist{noitemsep}
+
+
+% To add some paragraph space between lines.
+% This also tells LaTeX to preferably break a page on one of these gaps
+% if there is a needed pagebreak nearby.
+\newcommand{\blankline}{\quad\pagebreak[3]}
+\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+
+
+%
+% NOTE: \rcollength is the width of the right column of the table
+%
+\newlength{\rcollength}\setlength{\rcollength}{2.75in}%
+
+
+% THIS IS THE PRIMARY COMMAND USED FOR ENTERING CV DATA!!!!
+\newcommand{\cventry}[2]{%
+\begin{tabular}[t]{R !{\VRule} L}
+  % \parbox[t][][t]{0.81\textwidth}{#2}
+  \begin{minipage}[t][][t]{0.81\textwidth}
+    #2
+  \end{minipage}
+  &
+  \parbox[t][][t]{0.19\textwidth}{#1}
+\end{tabular}%
+\vspace{0.25em}
+}
+
+% \setlength{\itemsep}{0em}
+
+
+%% highlights a name in bibliography
+% \newcommand{\makeauthorbold}[1]{%
+% \DeclareNameFormat{author}{%
+%   \edef\tempname{{#1}}%
+%   \ifnumequal{\value{listcount}}{1}
+%     {\ifnumequal{\value{liststop}}{1}
+%       {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
+%       {\expandafter\ifstrequal\tempname{##1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
+%     {\ifnumless{\value{listcount}}{\value{liststop}}
+%       {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
+%       {\expandafter\ifstrequal\tempname{##1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
+%     }%
+% }%
+% }
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+% \makeauthorbold{Rominger}
+\makeheading{Andrew J.~Rominger}
+
+\section{Contact Information}
+%
+\begin{tabular}[t]{p{\textwidth-\rcollength}p{\rcollength}}
+  \multicolumn{2}{l}{Santa Fe Institute} \\  
+  1399 Hyde Park Road &\textit{E-mail:} \verb|rominger@santafe.edu|\\
+  Santa Fe, New Mexico 87501 USA & \textit{Web:} \verb|nature.berkeley.edu/~rominger|\\
+\end{tabular}
+
+\section{Education}
+%
+\cventry{2016}{
+  {\bf University of California, Berkeley} \\
+  Ph.D. Environmental Science, Policy \& Management \\
+  {\it Committee:} Rosemary Gillespie, John Harte \& Charles Marshall \\
+  {\it Dissertation:} The statistical mechanics of biodiversity
+}
+%
+\cventry{2009}{
+  {\bf Stanford University} \\
+   B.S. in Biological Sciences \\
+  {\it Advisors:} Elizabeth Hadly \& Rodolfo Dirzo \\
+  {\it Honors thesis:} Both neutral and deterministic processes drive
+  community structure
+}
+
+\section{Appointments}
+%
+\cventry{2017}{
+  {\bf Omidyar Fellow,} Santa Fe Institute
+}
+%
+\cventry{2016}{
+  {\bf Postdoctoral Fellow,} Berkeley Initiative in Global Change
+  Biology, UC Berkeley
+}
+%
+\cventry{2010}{
+  {\bf Fulbright Scholar,} Pontificia Universidad Cat{\'o}lica de Chile
+}
+
+\section{Peer-reviewed Publications}
+%
+\cventry{in press}{
+\begin{itemize}
+\item[]\hspace{-1.1\leftmargin} O'Dwyer JP, {\bf Rominger AJ}, Xiao X
+  (2017). Reinterpreting Maximum Entropy in Ecology: a null hypothesis
+  constrained by ecological mechanism. {\it Ecology
+    Letters}. Preprint: {\tt  arxiv.org/abs/1702.08543}.
+\item[]\hspace{-1.51\leftmargin} Harte J, Newman EA, {\bf Rominger
+    AJ}. (2017) Metabolic partition across individuals in ecological
+  communities. {\it Global Ecology and Biogeography}. Online early:
+  {\tt http://onlinelibrary.wiley.com/doi/10.1111/geb.12621/full}
+  \end{itemize}
+}
+%
+\cventry{in review}{
+\begin{itemize}
+\item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Overcast I,
+  Krehenwinkel H, Gillespie RG, Harte L, Hickerson, MJ (in rev.). Linking
+  evolutionary and ecological theory illuminates non-equilibrium
+  biodiversity. In review at {\it Trends in Ecology and Evolution}.
+  Preprint: {\tt arxiv.org/abs/1705.04725}.
+\item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Fuentes MA, Marquet
+  PA. (in rev.) Punctuated non-equilibrium and niche conservatism
+  explain biodiversity fluctuations through the Phanerozoic. In review
+  at {\it Nature Ecology Evolution}. Preprint: {\tt
+    arxiv.org/abs/1707.09268}.
+  \end{itemize}
+}
+%
+\cventry{2017}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Merow C. (2017)
+    {\tt meteR}: An {\tt R} package for testing the Maximum Entropy
+    Theory of Ecology. {\it Methods in Ecology and Evolution} 8:
+    241--247.
+  \item[]\hspace{-1.1\leftmargin} Stegner MA, Karp DS, {\bf Rominger
+      AJ}, Hadly EA (2017). Can protected areas really maintain mammalian
+    diversity? Insights from a nestedness analysis of the Colorado
+    Plateau. {\it Biological Conservation} 209: 546--553.
+  \end{itemize}
+}
+%
+\cventry{2016}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, {\it et
+      al.}. (2016). Community assembly on isolated islands: Macroecology meets
+    evolution. {\it Global Ecology and Biogeography} 25: 769--780.
+    % 
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ} (2016) Ecological Theories in Biogeography. In: Kliman,
+    R.M. (ed.), {\it Encyclopedia of Evolutionary Biology} 1:
+    145–-148. Oxford: Academic Press.
+    % 
+  \item[]\hspace{-1.1\leftmargin} Sardinas HS, Tom K, {\bf Rominger
+      AJ}, Kremen C. (2016). Patterns of native bee crop pollination within
+    agricultural fields are limited by nest site location. In press at
+    {\it Ecological Applications} 26: 438--447.
+  \end{itemize}
+}
+%
+\cventry{2015}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} Harte J, {\bf Rominger AJ}, Zhang
+    W. (2015). Integrating macroecological metrics and community taxonomic
+    structure. {\it Ecology Letters} 18: 1068--1077.
+  \end{itemize}
+}
+%
+\cventry{2013}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} Harte J, Kitzes J, Newman E \& {\bf
+      Rominger AJ}. (2013). Taxon categories and the universal
+    species-area relationship: A comment on Sizling et al.  {\it The
+      American Naturalist} 181: 282--287.
+  \end{itemize}
+}
+%
+\cventry{2012}{
+  \begin{itemize}%\itemsep0em
+  \item[]\hspace{-1.1\leftmargin} Maurer BA, Kembel SW, {\bf Rominger
+      AJ} \& McGill BJ. (2012). Estimating metacommunity extent using
+    data on species abundances, environmental variation, and
+    phylogenetic relationships across geographic space. {\it
+      Ecological Informatics} 13: 114--122.
+  % 
+  \item[]\hspace{-1.1\leftmargin} Karp DS, {\bf Rominger AJ}, Zook J,
+    Ranganathan J, Ehrlich PR \& Daily GC. (2012). Intensive
+    agriculture erodes $\beta$-diversity
+    at large scales. {\it Ecology Letters} 15: 963--970.
+  \end{itemize}
+}
+%
+\cventry{2009}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Miller TEX \& Collins
+    SL. (2009). Relative contributions of neutral and niche-based
+    processes to the structure of a desert grassland grasshopper
+    community. {\it Oecologia} 161: 791--800.
+  \end{itemize}
+}
+% %
+% \cventry{submitted}{
+%   \begin{itemize}
+%   \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Fuentes MA,
+%     Marquet PA. (submitted). Punctuated non-equilibrium in the volatility of
+%     macroevolution drives complex trajectories of Phanerozoic
+%     diversity. Submitted to {\it Nature Ecology and Evolution}.
+%   \end{itemize}
+% }
+
+\section{Authored Software}
+%
+\cventry{2016}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, {\tt pika}: An
+    {\tt R} package for testing and visualization
+    macroecology. \url{https://github.com/ajrominger/pika}
+  \end{itemize}
+}
+%
+\cventry{2015}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Merow
+    C. (2015). {\tt meteR}: Testing the Maximum Entropy Theory of Ecology. R
+    package version 1.0.  \url{http://CRAN.R-project.org/package=meteR}
+  \end{itemize}
+}
+
+\section{Grants}
+%
+\cventry{2016}{
+ {\bf NSF Biocollections Postdoctoral Fellow,} University of
+ Florida. \\ 
+(declined) \$137,000 \\
+  \\[-0.75em]
+{\bf NIMBioS Postdoctoral Fellow,} University of Tennessee. \\
+(declined) \$108,000
+}
+%
+\cventry{2015}{
+ {\bf Philomathia Graduate Student Fellowship,} UC Berkeley. \\ \$20,000
+}
+\cventry{2014}{
+  {\bf Berkeley Initiative in Global Change Biology Workshop Grant,}
+  UC Berkeley. \\ \$10,000
+}
+%
+\cventry{2012--2017}{
+  {\bf National Science Foundation Grant DEB 1241253:} Dimensions of
+  Biodiversity---Community level approach to understanding speciation
+  in Hawaiian lineages. I contributed to the design and writing of grant
+  sections dealing with sampling strategy, statistical analysis and
+  ecological theory testing and development.
+}
+%
+\cventry{2011--2015}{
+  {\bf Graduate Research Fellowship,} National Science
+  Foundation. \\ \$121,000 \\
+  \\[-0.75em]
+  {\bf Walker Fund for Entomology,} Essig Museum of
+  Entomology. \\ \$4,200 }
+
+\section{Awards \& Honors}
+%
+\cventry{2015}{
+  {\bf Outstanding GSI Award,} University of California, Berkeley \\
+  {\bf Usinger Award in Entomology,} University of California, Berkeley
+}
+%
+\cventry{2009}{
+  {\bf Kennedy Prize for Outstanding Honors Thesis,} Stanford
+  University. Given to one thesis in the Natural Sciences \\
+  \\[-0.75em]
+  {\bf Firestone Medal for Excellence in Undergraduate Research,} \\
+  Stanford University. Given to ten finishing students in the Department of Biology \\
+  \\[-0.75em]
+  {\bf Award for Excellence in Teaching,} Stanford University
+}
+
+\section{Organized workshops}
+%
+\cventry{2014}{ 
+  {\bf Big ecological questions, diverse data, new methods}. I
+  organized and secured funding from the Berkeley Initiative in Global
+  Change Biology for a workshop bringing together leaders in
+  ecological theory, statistics and data digitization efforts to help
+  map future directions for ecoinformatics.
+}
+%
+\cventry{2012--2013}{
+  {\bf Global change biogeography}. Created and lead a Berkeley Initiative in
+  Global Change Biology working group.
+}
+
+\section{Invited Talks}
+%
+\cventry{2016}{
+  \begin{itemize} % first item was strangely offset so took off extra 0.1em
+  \item[]\hspace{-1.2\leftmargin} {\bf Rominger AJ}. (2016). Isolated
+    islands untangle universal patterns at the nexus of macroevolution
+    and macroecology. {\it Island Biology 2016}. Terceira Island,
+    Azores, Portugal.
+\end{itemize}
+}
+%
+\cventry{2015}{
+  \begin{itemize} % first item was strangely offset so took off extra 0.1em
+  \item[]\hspace{-1.2\leftmargin} {\bf Rominger AJ}. (2015). Community
+    assembly on isolated islands: Macroecology meets evolution. {\it
+      Evolution 2015}. Sao Palo, Brazil.
+\end{itemize}
+}
+%
+\cventry{2014}{
+  \begin{itemize} % first item was strangely offset so took off extra 0.1em
+  \item[]\hspace{-1.2\leftmargin} {\bf Rominger AJ}. (2014). Theory
+    based perspectives on global change biology. Berkeley Initiative
+    in Global Change Biology site visit by the Moore Foundation.
+\end{itemize}
+}
+%
+\cventry{2013}{
+  \begin{itemize} % first item was strangely offset so took off extra 0.1em
+  \item[]\hspace{-1.2\leftmargin} {\bf Rominger
+      AJ}. (2013). Evolutionary constraints and information entropy in
+    ecology. {\it $98^{th}$ Ecological Society of America Annual
+      Meeting}. Minneapolis, MN, USA.
+\end{itemize}
+}
+%
+\cventry{2012}{
+  \begin{itemize} % first item was strangely offset so took off extra 0.1em
+  \item[]\hspace{-1.2\leftmargin} {\bf Rominger
+      AJ}. (2012). Specimen-based biogeography: Imperfect detection
+    and biased sampling. {\it $6^{th}$ Biannual Meeting of the
+      International Biogeography Society}. Miami, FL, USA.
+\end{itemize}
+}
+%
+\cventry{2011}{
+  \begin{itemize} % first item was strangely offset so took off extra 0.1em
+  \item[]\hspace{-1.2\leftmargin} {\bf Rominger AJ}, Gruner D, Harte J
+    \& Gillespie RG. (2011). Making and breaking a new ecological
+    theory. {\it Evolution of the Pacific}. Honolulu, HI, USA.
+\end{itemize}
+}
+
+\section{Selected Conference Presentations}
+%
+\cventry{2016}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}. How to be happy
+    when your data are SAD. {\it $101^{st}$ Ecological Society of
+      America Annual Meeting}. Ft. Lauderdale, FL, USA.
+  \end{itemize}
+}
+%
+\cventry{2015}{ 
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Gillespie
+    R. (2015). Macroevolutionary signals of insular adaptive
+    radiations: Synthesizing across island systems with a novel
+    statistical method.  {\it $7^{th}$ Biannual Meeting of the
+      International Biogeography Society}. Bayreuth, Germany.
+  \end{itemize}
+}
+%
+\cventry{2014}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, M'Gonigle L,
+    Maher SP, Iknayan KJ, Chang L, Rapacciuolo G, Holroyd
+    P. (2014). Estimating community change from sporadic data: A novel
+    statistical technique sheds light on continental-scale ecology of
+    the Pleistocene-Holocene transition. {\it $99^{th}$ Ecological
+      Society of America Annual Meeting}. Sacramento, CA, USA.
+  \end{itemize}
+}
+%
+\cventry{2012}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Gruner D, Harte J
+    \& Gillespie RG. (2012). Making and breaking a new ecological
+    theory. {\it $97^{th}$ Ecological Society of America Annual
+      Meeting}. Portland, OR, USA.
+  % \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}. (2012). Spatial
+  %   homogenization of North American bird communities through
+  %   time. {\it $6^{th}$ Biannual Meeting of the International
+  %     Biogeography Society}. Miami, FL, USA.
+  \end{itemize}
+}
+%
+\cventry{2011}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Fuentes MA \&
+    Marquet PA. (2011). Volatility of clade-specific random walks
+    evolves across lineages and drives complex diversification
+    patterns through geologic time. {\it $96^{th}$ Ecological Society
+      of America Annual Meeting}. Austin, TX, USA.
+  \end{itemize}
+}
+%
+\cventry{2009}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ} \& Hadly
+    EA. (2009). Geographic diffusion of New World bird species:
+    Energetics, inter-continental dispersal, vicariance and
+    diversification. {\it $4^{th}$ Biannual Meeting of the
+      International Biogeography Society}. Merida, Yucatan, Mexico.
+  \end{itemize}
+}
+% 
+\cventry{2007}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} {\bf Rominger AJ}, Miller TEX \&
+    Collins SL. (2007). Dispersal, determinism and the structure of a
+    local grasshopper community. {\it $92^{nd}$ Ecological Society of
+      America Annual Meeting}. San Jose, CA, USA.
+  \end{itemize}
+}
+
+\section{Teaching Experience}
+%
+\cventry{2014}{
+  {\bf Graduate Student Instructor,} UC Berkeley \\
+  ESPM 174: Design and Analysis of Ecological Studies \\
+  {\it Instructor:} Perry de Valpine \\
+  {\bf Graduate Student Instructor,} UC Berkeley \\
+  INTEGRATIVE BIOLOGY 166: Evolutionary Biogeography \\
+  {\it Instructor:} Anthony Barnosky
+}
+%
+\cventry{2010--2013}{
+  {\bf R Tutorials,} Stanford University and UC Berkeley \\
+  \vspace{-2em}
+  \begin{itemize}
+  \item[] {\tt R} and phylogenetics. Evo Lab group, UC Berkeley {\it December 2013}  
+  \item[] General {\tt R}. Evo Lab group, UC Berkeley {\it December 2012}
+  \item[] Advanced {\tt R} plotting. Hadly Lab group, Stanford University {\it March 2010}
+  \item[] General {\tt R}. Hadly Lab group, Stanford University {\it December 2011}
+  \end{itemize}
+}
+%
+\cventry{2009}{
+  {\bf Teaching Assistant,} Stanford University \\
+  BIOLOGY 121: Biogeography \\
+  {\it Instructor:} Elizabeth Hadly
+}
+
+\section{Mentoring Experience}
+%
+\cventry{current}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} Karen Gallardo: Soundscape evolution across the
+    Hawaiian chronosequence. 
+  \item[]\hspace{-1.1\leftmargin} Edward Huang: Scientific computing
+    and biocollections database management with {\tt R}.
+  \end{itemize}
+}
+%
+\cventry{2016}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} Brittany Mathat: Phylogeny and
+    biogeography of native Hawaiian {\it Nabis}.
+  \end{itemize}
+}
+%
+\cventry{2015}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} Kelley Henning: Microbiome of native Hawaiian
+    arthropods
+  \item[]\hspace{-1.1\leftmargin} Crispin Herrick: Populations genetics of native
+    Hawaiian spiders
+  \item[]\hspace{-1.1\leftmargin} Terisa Yiin: Phylogeography, population genomics
+    and speciation mechanisms of the spider genus {\it Ariamnes}
+  \end{itemize}
+}
+%
+\cventry{2014}{
+  \begin{itemize}
+  \item[]\hspace{-1.1\leftmargin} Victoria Knorr: Integrating the Red Queen hypothesis
+    with biogeography using fossil mammals
+\end{itemize}
+}
+%
+\cventry{2013}{
+  \begin{itemize}  
+  \item[]\hspace{-1.1\leftmargin} Addien Wray: Analysis of island $\beta$-diversity
+    patterns and land-use change.
+  \end{itemize}
+}
+
+\section{Outreach}
+%
+\cventry{2013--present}{
+  {\bf Board Member} \\
+  Talking Talons Youth Leadership Community Fund, an organization that
+  funds environmental education projects.
+}
+
+\cventry{2009--present}{
+  {\bf Community presentation speaker} \\
+  Present at youth and environmental group meetings including Central
+  New Mexico Audubon Society and Pacific Internship Programs for
+  Exploring Science about science, conservation and environmental
+  education.
+}
+
+\cventry{2009}{
+  {\bf Splash instructor} \\
+  Thought an interactive course about global change biology to K-12
+  students as part of Stanford University's Educational Studies Splash Program.
+}
+
+\cventry{2006--2012}{
+  {\bf Natural history docent} \\
+  Lead classroom and community tours of Jasper Ridge Biological
+  Preserve (Stanford University) focusing on local
+  conservation issues, ecology, evolution and geology.
+}
+
+\section{Professional Service}
+%
+\begin{tabular}[t]{ll}
+  Referee for: 
+  & {\it Ecology Letters} \\
+  & {\it Proceedings of the Royal Society B} \\
+  & {\it The American Naturalist} \\
+  & {\it Ecology} \\
+  & {\it Journal of Theoretical Biology} \\
+  & {\it Oecologia} \\
+  & {\it PLoS ONE}
+\end{tabular}
+
+\end{document}
