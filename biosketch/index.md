@@ -3,8 +3,8 @@ layout: cv
 title: Andrew Rominger's Biosketch
 ---
 # Andrew J. Rominger
-<br />
-- Santa Fe Institute <br />1399 Hyde Park Road <br />Santa Fe, New Mexico 87501 USA
+
+- Santa Fe Institute <br />1399 Hyde Park Rd <br />Santa Fe, New Mexico 87501 USA
 - _email:_ rominger@santafe.edu
 - _web:_ ajrominger.github.io
 
@@ -19,7 +19,7 @@ __Ph.D. University of California Berkeley__ Environmental Science, Policy and Ma
 
 ## (B) Appointments
 
-`2017-2018`
+`2017-2019`
 __Omidyar Fellow__, Santa Fe Institute
 
 `2016`
@@ -74,14 +74,20 @@ Karp, D.S., __Rominger, A.J.__, Zook, J., Ranganathan, J., Ehrlich, P.R. & Daily
 
 ## (D) Synergistic Activities
 
-`2018`
+`2018-2019`
 __Board president__, Juniper Hill Center, Las Vegas, NM, USA <br />
 Founding member of the research and education non-profit organization.
+
+__Science Fair Mentor__, West Last Vegas High School, Las Vegas, NM, USA <br />
+Helping students build quantitative models of wildlife populations for their science fair project.
+
+__STEM outreach volunteer__, Rio Mora National Wildlife Refuge, Wagon Mound, NM, USA <br />
+Create and lead hands-on science activities for middle and high school students to inspire and provide oppurtunities for underrepresented students to pursue careers in STEM.
 
 `2013-2014`
 __Board member__, Talking Talons Youth Leadership Community Fund, Tijeras, NM, USA. <br />
 An organization that funds environmental education.
 
-`2009-2018`
+`2009-2019`
 __Community speaker__, <br />
-Present about science, conservation and environmental education at youth and environmental group meetings including Central New Mexico Audubon Society and Pacific Internship Programs for Exploring Science.
+Present about science, conservation and environmental education at youth and environmental group meetings including Central New Mexico Audubon Society, Haleakela National Park, and Pacific Internship Programs for Exploring Science in Hawaii.
