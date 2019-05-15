@@ -3,7 +3,7 @@ layout: cv
 title: Andrew Rominger's CV
 ---
 # Andrew J. Rominger
-Omidyar Postdoctoral Fellow at the Santa Fe Institute
+Omidyar Postdoctoral Fellow, Santa Fe Institute
 
 <div id="webaddress">
 <a href="mailto:rominger@santafe.edu">rominger@santafe.edu</a>
@@ -18,7 +18,7 @@ Omidyar Postdoctoral Fellow at the Santa Fe Institute
 ## Education
 
 `2016`
-__University of California Berkeley__ Ph.D. Environmental Science, Policy and Management <br />
+__University of California Berkeley__ Ph.D. Environmental Science, Policy, and Management <br />
 Committee: Rosemary Gillespie, John Harte, Charles Marshall <br />
 Dissertation: _The statistical mechanics of biodiversity_
 
@@ -29,14 +29,14 @@ Honors thesis: _Both neutral and deterministic processes drive community structu
 
 ## Appointments
 
-`2017-2018`
-__Omidyar Fellow__, Santa Fe Institute
+`2017-present`
+__Omidyar Postdoctoral Fellow__, Santa Fe Institute
 
 `2016`
 __Postdoctoral Fellow__, Berkeley Initiative in Global Change Biology, UC Berkeley
 
 `2010`
-__Fulbright Scholar__, Pontificia Universida Católica de Chile
+__Fulbright Scholar__, Pontificía Universida Católica de Chile
 
 
 
@@ -45,44 +45,51 @@ __Fulbright Scholar__, Pontificia Universida Católica de Chile
 `in revision`
 __Rominger, A.J.__ et al. (in revision). Linking evolutionary and ecological theory illuminates non-equilibrium biodiversity. _Trends in Ecology and Evolution_, preprint: <a href="arxiv.org/abs/1705.04725">arxiv.org/abs/1705.04725</a>.
 
-__Rominger, A.J.__, Fuentes, M.A. & Marquet, P. (in revision). Punctuated non-equilibrium and niche conservatism explain biodiversity fluctuations through the Phanerozoic. _Science Advances_, preprint: <a href="arxiv.org/abs/1707.09268">arxiv.org/abs/1707.09268</a>.
+Van Dam, M.H., __Rominger, A.J.__ & Brewer, M.S. (in revision). Environmental niche adaptation revealed through fine scale phenological niche modeling. _Journal of Biogeography_, preprint: <a href="https://www.biorxiv.org/content/10.1101/534636v1.abstract">biorxiv.org/content/10.1101/534636v1.abstract</a>.
 
+`in press`
+__Rominger, A.J.__, Fuentes, M.A. & Marquet, P. (in press). Non-equilibrium rate heterogeneity explains fat-tailed fluctuations in Phanerozoic biodiversity. _Science Advances_, preprint: <a href="arxiv.org/abs/1707.09268">arxiv.org/abs/1707.09268</a>.
+
+`2018`
+Borges, P. A., Cardoso, P., Kreft, H.,... __Rominger, A.J.__, et al. (2018). Global Island Monitoring Scheme (GIMS): a proposal for the long-term coordinated survey and monitoring of native island forest biota. _Biodiversity and Conservation_, 27, 1-20.
 
 `2017`
-Harte, J., Newman, E.A. & __Rominger, A.J.__ (2017). Metabolic partitioning across individuals in ecological communities. _Global Ecology and Biogeography_, 26(9), 993–997.
+Harte, J., Newman, E.A. & __Rominger, A.J.__ (2017). Metabolic partitioning across individuals in ecological communities. _Global Ecology and Biogeography_, 26, 993–997.
 
-Krehenwinkel, H., Wolf, M., Lim, J.Y., __Rominger, A.J.__, Simison, W.B. & Gillespie, R.G. (2017). Estimating and mitigating amplification bias in qualitative and quantitative arthropod metabarcoding. _Scientific Reports_, 7(1), 17668.
+Krehenwinkel, H., Wolf, M., Lim, J.Y., __Rominger, A.J.__, Simison, W.B. & Gillespie, R.G. (2017). Estimating and mitigating amplification bias in qualitative and quantitative arthropod metabarcoding. _Scientific Reports_, 7, 17668.
 
-O'Dwyer, J.P., __Rominger, A.J.__ & Xiao, X. (2017). Reinterpreting maximum entropy in ecology: a null hypothesis constrained by ecological mechanism. _Ecology Letters_, 20(7), 832–841.
+O'Dwyer, J.P., __Rominger, A.J.__ & Xiao, X. (2017). Reinterpreting maximum entropy in ecology: a null hypothesis constrained by ecological mechanism. _Ecology Letters_, 20, 832–841.
 
 __Rominger, A.J.__ & Merow, C. (2017). meteR: an R package for testing the maximum entropy theory of ecology. _Methods in Ecology and Evolution_, 8(2), 241–247.
+
+<br>
 
 Stegner, M.A., Karp, D.S., __Rominger, A.J.__ & Hadly, E.A. (2017). Can protected areas really maintain mammalian diversity? Insights from a nestedness analysis of the Colorado Plateau. _Biological Conservation_, 209, 546–553.
 
 `2016`
 __Rominger, A.J.__ (2016). Ecological Theories in Biogeography. In: Kliman, R.M. (ed.), _Encyclopedia of Evolutionary Biology_, 145-148. Academic Press, Oxford.
 
-__Rominger, A.J.__ et al. (2016). Community assembly on isolated islands: macroecology meets evolution. _Global Ecology and Biogeography_, 25(7), 769–780.
+__Rominger, A.J.__ et al. (2016). Community assembly on isolated islands: macroecology meets evolution. _Global Ecology and Biogeography_, 25, 769–780.
 
-Sardiñas, H.S., Tom, K., __Rominger, A.J.__, Andrew & Kremen, C. (2016). Sunflower (_Helianthus annuus_) pollination in California’s Central Valley is limited by native bee nest site location. Ecological applications: a publication of the Ecological Society of America, 26(2), 438–447.
+Sardiñas, H.S., Tom, K., __Rominger, A.J.__, & Kremen, C. (2016). Sunflower (_Helianthus annuus_) pollination in California's Central Valley is limited by native bee nest site location. _Ecological Applications_, 26, 438–447.
 
 
 `2015`
-Harte, J., __Rominger, A.J.__ & Zhang, W. (2015). Integrating macroecological metrics and community taxonomic structure. _Ecology Letters_, 18(10), 1068–1077.
+Harte, J., __Rominger, A.J.__ & Zhang, W. (2015). Integrating macroecological metrics and community taxonomic structure. _Ecology Letters_, 18, 1068–1077.
 
 
 `2013`
-Harte, J., Kitzes, J., Newman, E.A. & __Rominger, A.J.__ (2013). Taxon Categories and the Universal Species-Area Relationship: (A Comment on Šizling et al.,"Between Geometry and Biology: The Problem of Universality of the Species-Area Relationship"). _The American Naturalist_, 181(2), 282–287.
+Harte, J., Kitzes, J., Newman, E.A. & __Rominger, A.J.__ (2013). Taxon categories and the universal species-Aarea relationship. _The American Naturalist_, 181, 282–287.
 
 Maurer, B.A., Kembel, S.W., __Rominger, A.J.__ & McGill, B.J. (2013). Estimating metacommunity extent using data on species abundances, environmental variation, and phylogenetic relationships across geographic space. _Ecological Informatics_, 13, 114–122.
 
 
 `2012`
-Karp, D.S., __Rominger, A.J.__, Zook, J., Ranganathan, J., Ehrlich, P.R. & Daily, G.C. (2012). Intensive agriculture erodes $\beta$-diversity at large scales. _Ecology Letters_, 15(9), 963–970.
+Karp, D.S., __Rominger, A.J.__, Zook, J., Ranganathan, J., Ehrlich, P.R. & Daily, G.C. (2012). Intensive agriculture erodes $\beta$-diversity at large scales. _Ecology Letters_, 15, 963–970.
 
 
 `2009`
-__Rominger, A.J.__, Miller, T.E.X. & Collins, S.L. (2009). Relative contributions of neutral and niche-based processes to the structure of a desert grassland grasshopper community. _Oecologia_, 161(4), 791–800.
+__Rominger, A.J.__, Miller, T.E.X. & Collins, S.L. (2009). Relative contributions of neutral and niche-based processes to the structure of a desert grassland grasshopper community. _Oecologia_, 161, 791–800.
 
 
 
@@ -92,57 +99,55 @@ __Rominger, A.J.__, Miller, T.E.X. & Collins, S.L. (2009). Relative contribution
 __Rominger, A.J.__ (2016). pika: An R package for testing and visualization macroecology. <a href="https://github.com/ajrominger/pika">github.com/ajrominger/pika</a>
 
 `2015`
-__Rominger, A.J.__ & Merow, C. (2015). meteR: Testing the Maximum Entropy Theory of Ecology. R package version 1.0. <a href="http://cran.r-project.org/package=meteR">cran.r-project.org/package=meteR</a>
+__Rominger, A.J.__ & Merow, C. (2015). meteR: Testing the Maximum Entropy Theory of Ecology. R package version 1.2. <a href="http://cran.r-project.org/package=meteR">cran.r-project.org/package=meteR</a>
 
 
 ## Grants
 
-`2016`
-__NSF Biocollections Postdoctoral Fellow__, University of Florida.  (declined) <!--$137,000--->
+`submitted`
+__A Rules Of Life Engine (RoLE) Model to Uncover Fundamental Processes Governing Biodiversity__, National Science Foundation. Proposed budget: *$398,109 USD*
 
-__NIMBioS Postdoctoral Fellow__, University of Tennessee. (declined) <!--$108,000--->
+__Frameworks for Vertical Data Integration and Process Models to Enable Broad-Scale Plant Diversity Prediction__, National Science Foundation. Proposed budget: *$248,038 USD*
+
+`2017`
+__Omidyar Postdoctoral Fellow__, Santa Fe Institute. *$210,000 USD*
+
+__sDiv Working Group__, German Center for Integrative Biodiversity Research. *$60,000 USD*
+
+`2016`
+__NSF Biocollections Postdoctoral Fellow__, University of Florida.  (declined) *$137,000 USD*
+
+__NIMBioS Postdoctoral Fellow__, University of Tennessee. (declined) *$108,000 USD*
 
 `2015`
-__Philomathia Graduate Student Fellowship__, UC Berkeley. <!--$20,000--->
+__Philomathia Graduate Student Fellowship__, University of California Berkeley. *$20,000 USD*
 
 `2012-2017`
-__National Science Foundation Grant DEB 1241253__, Community level approach to understanding speciation in Hawaiian arthropod lineages. As a graduate student I contributed to the design and writing of this grant.
+__National Science Foundation Grant DEB 1241253__, Community level approach to understanding speciation in Hawaiian arthropod lineages. As a graduate student I contributed to the design, writing, and execution of this grant.
 
 `2011-2015`
-__Graduate Research Fellowship__, National Science Foundation.  <!--*$121,000*--->
+__Graduate Research Fellowship__, National Science Foundation.  *$121,000 USD*
 
-__Walker Fund for Entomology__, Essig Museum of Entomology. <!--$4,200--->
+__Walker Fund for Entomology__, Essig Museum of Entomology. *$4,200 USD*
+
+`2010`
+__Fulbright Scholar__, Pontificía Universidad Católica de Chile. *$12,000 USD*
 
 
 
 ## Awards & Honors
 `2015`
-__Outstanding GSI Award__, University of California, Berkeley  
+__Outstanding Graduate Student Instructor Award__, University of California Berkeley. 
 
-__Usinger Award in Entomology__, University of California, Berkeley
+__Usinger Award in Entomology__, University of California Berkeley.
 
 `2009`
-__Kennedy Prize for Outstanding Honors Thesis__, Stanford University. Given to one thesis in the Natural Sciences
+__Kennedy Prize for Outstanding Honors Thesis__, Stanford University. Given to one thesis in the Natural Sciences.
 
 __Firestone Medal for Excellence in Undergraduate Research__,
-Stanford University. Given to ten finishing students in the Department of Biology
+Stanford University. Given to ten finishing students in the Department of Biology.
 
-__Award for Excellence in Teaching__, Stanford University
-
-
-## Organized Working Groups
-
-`2018`
-__Extending the Reach of Info-Metrics to Dynamics and Non-Hierarchical Systems__, Santa Fe Institute.
-
-`2017`
-__The Nexus of Ecology and Evolution in Space and Time__, Santa Fe Institute.
-
-`2014`
-__Big ecological questions, diverse data, new methods__, Berkeley Initiative in Global Change Biology, University of California Berkeley.
-
-`2013`
-__Global change biogeography__, University of California Berkeley.
+__Award for Excellence in Teaching__, Stanford University.
 
 
 ## Invited Talks
@@ -173,6 +178,9 @@ __Rominger, A.J.__, Gruner D., Harte J. & Gillespie R.G. (2011). Making and 2011
 
 ## Selected Conference Presentations
 
+`2018`
+__Rominger, A.J.__ (2018) Linking Evolutionary and Ecological Theory Illuminates Non-equilibrium Biodiversity. _Gordon Research Conference on Unifying Ecology Across Scales_. Biddeford, ME, USA.
+
 `2016`
 __Rominger, A.J.__ (2016) How to be happy when your data are SAD. _101st Ecological  Society of America Annual Meeting_. Ft. Lauderdale, FL, USA.
 
@@ -193,9 +201,18 @@ __Rominger, A.J.__, Miller, T.E.X. & Collins, S.L. (2007). Dispersal, determinis
 
 ## Teaching Experience
 
+`Training`
+I completed the University of California Berkeley's semester-long teacher training for graduate student instructors: __GSPDP 375 Teaching and Learning in Higher Education__
+
 `2018`
 __Instructor__, Santa Fe Institute Complexity Explorer <br />
-Complexicon: Keystone species
+Origins of Life. Course information at: [https://www.complexityexplorer.org/courses/95-origins-of-life](origins.complexityexplorer.org)
+
+`2018`
+__Instructor__, Santa Fe Institute Complexity Explorer <br />
+Complexicon: Keystone species. Viewable at: [https://www.youtube.com/watch?v=ZMmUWunHvBc](https://www.youtube.com/watch?v=ZMmUWunHvBc)
+
+__Instructor__, Santa Fe Institute Complex Systems Summer School.
 
 `2014`
 __Graduate Student Instructor__, UC Berkeley <br />
@@ -207,7 +224,6 @@ __Graduate Student Instructor__, UC Berkeley <br />
 INTEGRATIVE BIOLOGY 166: Evolutionary Biogeography <br />
 _Instructor:_ Anthony Barnosky
 
-
 `2009`
 __Teaching Assistant__, Stanford University <br />
 BIOLOGY 121: Biogeography <br />
@@ -215,13 +231,23 @@ _Instructor:_ Elizabeth Hadly
 
 
 ## Mentoring Experience
+`2018`
+__Research Experience for Undergraduates Mentor__, Santa Fe Institute. I mentored two undergraduate students in projects focusing on quantitative analysis and modeling of population dynamics and diversity, both ecological and economic. In the ecological case we worked with adapting random matrix theory for microbial communities.
 
-`2017-2018`
-__Dissertation committee member__ for Isaac Overcast, City University of New York
+__High School Science Fair Mentor__, West Las Vegas High School. I am currently working with three students to develop an agent-based model, in the programming language NetLogo, of trout population dynamics in the Pecos River. I will also guide these students through collection of field data on trout movement and demography in the coming year. 
+
+__Capstone Project Mentor__, Santa Fe Indian School. I worked with two students helping them learn and implement study design and data analysis for their capstone projects. One project focused on promoting access to women's healthcare on Reservations, and the other in fostering native language retention and adoption in urban indigenous populations.
+
+
+`2017-present`
+__Dissertation committee member__ for Isaac Overcast, City University of New York. I mentor Isaac in quantitative community ecology to help him build simulation models of community assembly in an evolutionary light.
+
+`2015-2016`
+__Undergraduate research mentor__ University of Hawaii Hilo. I mentored 4 undergraduate students in field techniques for collecting plant and arthropod abundance and plant-herbivore interaction data. 
 
 `2013-2018`
-__Undergraduate research mentor__ for 8 undergraduate students, UC Berkeley. <br />
-Topics include phylogenetics of Hawaiian arthropod lineages, soundscape ecology, and scientific computation, including student-lead creation of open source R packages.
+__Undergraduate research mentor__ for 8 undergraduate students, University of California Berkeley. <br/>
+Topics included phylogenetics of Hawaiian arthropod lineages, soundscape ecology in birds, collection of field data on plants and arthropods, and scientific computation, including student-lead creation of open source R packages.
 
 
 ## Outreach
@@ -229,28 +255,38 @@ Topics include phylogenetics of Hawaiian arthropod lineages, soundscape ecology,
 `2018`
 __Board president__, Juniper Hill Center, Las Vegas, NM, USA
 
+`2017-2018`
+__STEM educator__, Rio Mora Stem Week
+
 `2013-2014`
 __Board member__, Talking Talons Youth Leadership Community Fund, Tijeras, NM, USA
 
 `2009-2018`
-__Community speaker__, <br />
-Present about science, conservation and environmental education at youth and environmental group meetings including Central New Mexico Audubon Society and Pacific Internship Programs for Exploring Science.
+__Community educator__, Present about science, conservation and environmental education at youth and environmental group meetings including Central New Mexico Audubon Society and Pacific Internship Programs for Exploring Science.
+
+<br>
+<br>
+<br>
+<br>
 
 ## Professional Service
 
-__Special issue editor for__:
+__Special issue editor for__
 
 - _Entropy_
 - _Frontiers in Ecology and Evolution_
 
-__Referee for__:
+__Referee for__
 - _The American Naturalist_
 - _Biological Invasions_
 - _Ecography_
 - _Ecology_
 - _Ecology Letters_
+- _Entropy_
 - _Global Ecology and Biogeography_
+- _Journal of Biogeography_
 - _Journal of Theoretical Biology_
 - _Oecologia_
 - _PLoS ONE_
 - _Proceedings of the Royal Society B_
+- _Sustainability_
