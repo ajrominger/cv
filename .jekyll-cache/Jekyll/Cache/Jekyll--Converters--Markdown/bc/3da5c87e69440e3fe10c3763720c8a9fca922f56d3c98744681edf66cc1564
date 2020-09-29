@@ -1,26 +1,11 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title> Andrew Rominger's CV</title>
-  <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
-  <link href="media/academicons.min.css" rel="stylesheet">
-
-  <!-- imports -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    <h1 id="andrew-j-rominger">Andrew J. Rominger</h1>
-<p>Assistant Professor of Ecological Informatics, School of Biology and Ecology, University of Maine</p>
+I"�U<h1 id="andrew-j-rominger">Andrew J. Rominger</h1>
+<p>Omidyar Postdoctoral Fellow, Santa Fe Institute <br />
+Adjunct Assistant Professor, University of New Mexico</p>
 
 <div id="webaddress">
-<a href="mailto:andrew.rominger@maine.edu">andrew.rominger@maine.edu</a>
+<a href="mailto:rominger@santafe.edu">rominger@santafe.edu</a>
 |
-<a href="https://www.ecoevomatics.org/">ecoevomatics.org</a>
+<a href="http://ajrominger.github.io">ajrominger.github.io</a>
 |
 <i class="fa fa-github"></i> <a href="http://github.com/ajrominger">ajrominger</a>
 </div>
@@ -39,13 +24,10 @@ Honors thesis: <em>Both neutral and deterministic processes drive community stru
 
 <h2 id="appointments">Appointments</h2>
 
-<p><code class="language-plaintext highlighter-rouge">2020</code>
-<strong>Assistant Professor of Ecological Informatics</strong>, School of Biology and Ecology, University of Maine</p>
-
-<p><code class="language-plaintext highlighter-rouge">2019-2020</code>
+<p><code class="language-plaintext highlighter-rouge">2019-present</code>
 <strong>Adjunct Assistant Professor</strong>, Department of Biology, University of New Mexico</p>
 
-<p><code class="language-plaintext highlighter-rouge">2017-2020</code>
+<p><code class="language-plaintext highlighter-rouge">2017-present</code>
 <strong>Omidyar Postdoctoral Fellow</strong>, Santa Fe Institute</p>
 
 <p><code class="language-plaintext highlighter-rouge">2016</code>
@@ -57,16 +39,16 @@ Honors thesis: <em>Both neutral and deterministic processes drive community stru
 <h2 id="publications">Publications</h2>
 
 <p><code class="language-plaintext highlighter-rouge">in revision</code>
-<strong>Rominger, A.J.</strong> et al. (in revision). Linking evolutionary and ecological theory illuminates non-equilibrium biodiversity. In revision for <em>Trends in Ecology and Evolution</em>, preprint: <a href="arxiv.org/abs/1705.04725">arxiv.org/abs/1705.04725</a>.</p>
+<strong>Rominger, A.J.</strong> et al. (in revision). Linking evolutionary and ecological theory illuminates non-equilibrium biodiversity. <em>Trends in Ecology and Evolution</em>, preprint: <a href="arxiv.org/abs/1705.04725">arxiv.org/abs/1705.04725</a>.</p>
 
-<p>Overcast, I., Ruffley, M., Rosindell, J., Harmon, L., …, <strong>Rominger, A.J.</strong>. (in revision.). A unified model of species abundance, genetic diversity, and functional diversity reveals the mechanisms structuring ecological communities. In revision for <em>Molecular Ecology Resources</em>, preprint: <a href="https://www.biorxiv.org/content/10.1101/2020.01.30.927236v1">biorxiv.org/content/10.1101/2020.01.30.927236v1</a>.</p>
+<p><code class="language-plaintext highlighter-rouge">in press</code>
+Kennedy, S.R., Prost S., Overcast, I., <strong>Rominger, A.J.</strong>, Gillespie, R.G., Krehenwinkel, H. (in press). High throughput sequencing for community analysis: The promise of DNA barcoding to uncover diversity, relatedness, abundances and interactions in spider communities. <em>Development Genes and Evolution</em>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">in prep</code>
+Overcast, I., Ruffley, M., Rosindell, J., Harmon, L., …, <strong>Rominger, A.J.</strong> [senior author]. (in prep.). A unified model of species abundance, genetic diversity, and functional diversity reveals the mechanisms structuring ecological communities. In prep. for <em>Ecology Letters</em>, preprint: <a href="https://www.biorxiv.org/content/10.1101/2020.01.30.927236v1">biorxiv.org/content/10.1101/2020.01.30.927236v1</a>.</p>
 
 <p><code class="language-plaintext highlighter-rouge">2020</code>
-McGill, B.J., Chase, J.M., Hortal, J., Overcast, I., <strong>Rominger, A.J.</strong>, Rosindell, J., … &amp; Mahler, D. L. (2020). Unifying macroecology and macroevolution to answer fundamental questions about biodiversity. <em>Global Ecology and Biogeography</em>, 29, 1095-1095.</p>
-
-<p>Kennedy, S.R., Prost S., Overcast, I., <strong>Rominger, A.J.</strong>, Gillespie, R.G., Krehenwinkel, H. (in press). High throughput sequencing for community analysis: The promise of DNA barcoding to uncover diversity, relatedness, abundances and interactions in spider communities. <em>Development, Genes and Evolution</em>, 1-17.</p>
-
-<p>Gillespie, R.G, Lim, J. &amp; <strong>Rominger, A.J.</strong> (2020). The theory of evolutionary biogeography. In <em>The Theory of Evolution: Principles, Concepts, and Assumptions</em>. 319. University of Chicago Press.</p>
+Gillespie, R.G, Lim, J. &amp; <strong>Rominger, A.J.</strong> (2020). The theory of evolutionary biogeography. In <em>The Theory of Evolution: Principles, Concepts, and Assumptions</em>. 319. University of Chicago Press</p>
 
 <p><code class="language-plaintext highlighter-rouge">2019</code>
 <strong>Rominger, A.J.</strong>, Fuentes, M.A. &amp; Marquet, P. (2019). Non-equilibrium rate heterogeneity explains fat-tailed fluctuations in Phanerozoic biodiversity. <em>Science Advances</em>, 5, eaat0122.</p>
@@ -130,31 +112,31 @@ Overcast, I., Ruffley, M., <strong>Rominger, A.J.</strong> (2018). <em>MESS:</em
 <h2 id="grants">Grants</h2>
 
 <p><code class="language-plaintext highlighter-rouge">2019-2021</code>
-<strong>Infrastructure Innovation for Biological Research: A Rules Of Life Engine (RoLE) Model to Uncover Fundamental Processes Governing Biodiversity</strong>, National Science Foundation.</p>
+<strong>Infrastructure Innovation for Biological Research: A Rules Of Life Engine (RoLE) Model to Uncover Fundamental Processes Governing Biodiversity</strong>, National Science Foundation. <em>$1,295,807 USD</em> shared across five collaborating institutions.</p>
 
 <p><code class="language-plaintext highlighter-rouge">2017</code>
-<strong>Omidyar Postdoctoral Fellow</strong>, Santa Fe Institute.</p>
+<strong>Omidyar Postdoctoral Fellow</strong>, Santa Fe Institute. <em>$210,000 USD</em></p>
 
-<p><strong>sDiv Working Group</strong>, German Center for Integrative Biodiversity Research.</p>
+<p><strong>sDiv Working Group</strong>, German Center for Integrative Biodiversity Research. <em>$60,000 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2016</code>
-<strong>NSF Biocollections Postdoctoral Fellow</strong>, University of Florida.  (declined)</p>
+<strong>NSF Biocollections Postdoctoral Fellow</strong>, University of Florida.  (declined) <em>$137,000 USD</em></p>
 
-<p><strong>NIMBioS Postdoctoral Fellow</strong>, University of Tennessee. (declined)</p>
+<p><strong>NIMBioS Postdoctoral Fellow</strong>, University of Tennessee. (declined) <em>$108,000 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2015</code>
-<strong>Philomathia Graduate Student Fellowship</strong>, University of California Berkeley.</p>
+<strong>Philomathia Graduate Student Fellowship</strong>, University of California Berkeley. <em>$20,000 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2012-2017</code>
-<strong>National Science Foundation Grant DEB 1241253</strong>, As a graduate student I contributed to the design, writing, and execution of this grant.</p>
+<strong>National Science Foundation Grant DEB 1241253</strong>, Community level approach to understanding speciation in Hawaiian arthropod lineages. As a graduate student I contributed to the design, writing, and execution of this grant.</p>
 
 <p><code class="language-plaintext highlighter-rouge">2011-2015</code>
-<strong>Graduate Research Fellowship</strong>, National Science Foundation.</p>
+<strong>Graduate Research Fellowship</strong>, National Science Foundation.  <em>$121,000 USD</em></p>
 
-<p><strong>Walker Fund for Entomology</strong>, Essig Museum of Entomology.</p>
+<p><strong>Walker Fund for Entomology</strong>, Essig Museum of Entomology. <em>$4,200 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2010</code>
-<strong>Fulbright Scholar</strong>, Pontificía Universidad Católica de Chile.</p>
+<strong>Fulbright Scholar</strong>, Pontificía Universidad Católica de Chile. <em>$12,000 USD</em></p>
 
 <h2 id="awards--honors">Awards &amp; Honors</h2>
 <p><code class="language-plaintext highlighter-rouge">2015</code>
@@ -283,7 +265,7 @@ Topics included computational phylogenetics, soundscape ecology in birds, collec
 <p><code class="language-plaintext highlighter-rouge">2018-present</code>
 <strong>Board president</strong>, Juniper Hill Center, Las Vegas, NM, USA</p>
 
-<p><code class="language-plaintext highlighter-rouge">2017-2019</code>
+<p><code class="language-plaintext highlighter-rouge">2017-present</code>
 <strong>STEM educator</strong>, Rio Mora STEM Week</p>
 
 <p><code class="language-plaintext highlighter-rouge">2013-2014</code>
@@ -296,7 +278,6 @@ Topics included computational phylogenetics, soundscape ecology in birds, collec
 <p><strong>NSF Panelist</strong></p>
 <ul>
   <li>BIO advisory panel 2020</li>
-  <li>IIBR review panel 2020</li>
 </ul>
 
 <p><strong>Special issue editor for</strong></p>
@@ -323,11 +304,4 @@ Topics included computational phylogenetics, soundscape ecology in birds, collec
   <li><em>Proceedings of the Royal Society B</em></li>
   <li><em>Sustainability</em></li>
 </ul>
-
-    </div>
-  </div>
-
-  <div class="footer"></div>
-
-</body>
-</html>
+:ET

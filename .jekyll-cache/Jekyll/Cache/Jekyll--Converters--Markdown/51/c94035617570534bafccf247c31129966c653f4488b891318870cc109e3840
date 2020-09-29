@@ -1,20 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title> Andrew Rominger's CV</title>
-  <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
-  <link href="media/academicons.min.css" rel="stylesheet">
-
-  <!-- imports -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    <h1 id="andrew-j-rominger">Andrew J. Rominger</h1>
+I"V<h1 id="andrew-j-rominger">Andrew J. Rominger</h1>
 <p>Assistant Professor of Ecological Informatics, School of Biology and Ecology, University of Maine</p>
 
 <div id="webaddress">
@@ -323,11 +307,4 @@ Topics included computational phylogenetics, soundscape ecology in birds, collec
   <li><em>Proceedings of the Royal Society B</em></li>
   <li><em>Sustainability</em></li>
 </ul>
-
-    </div>
-  </div>
-
-  <div class="footer"></div>
-
-</body>
-</html>
+:ET

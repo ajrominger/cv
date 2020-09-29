@@ -1,20 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset=utf-8 />
-  <title> Andrew Rominger's CV</title>
-  <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
-  <link href="media/academicons.min.css" rel="stylesheet">
-
-  <!-- imports -->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    <h1 id="andrew-j-rominger">Andrew J. Rominger</h1>
+I"fW<h1 id="andrew-j-rominger">Andrew J. Rominger</h1>
 <p>Assistant Professor of Ecological Informatics, School of Biology and Ecology, University of Maine</p>
 
 <div id="webaddress">
@@ -130,31 +114,31 @@ Overcast, I., Ruffley, M., <strong>Rominger, A.J.</strong> (2018). <em>MESS:</em
 <h2 id="grants">Grants</h2>
 
 <p><code class="language-plaintext highlighter-rouge">2019-2021</code>
-<strong>Infrastructure Innovation for Biological Research: A Rules Of Life Engine (RoLE) Model to Uncover Fundamental Processes Governing Biodiversity</strong>, National Science Foundation.</p>
+<strong>Infrastructure Innovation for Biological Research: A Rules Of Life Engine (RoLE) Model to Uncover Fundamental Processes Governing Biodiversity</strong>, National Science Foundation. <em>$1,295,807 USD</em> shared across five collaborating institutions.</p>
 
 <p><code class="language-plaintext highlighter-rouge">2017</code>
-<strong>Omidyar Postdoctoral Fellow</strong>, Santa Fe Institute.</p>
+<strong>Omidyar Postdoctoral Fellow</strong>, Santa Fe Institute. <em>$210,000 USD</em></p>
 
-<p><strong>sDiv Working Group</strong>, German Center for Integrative Biodiversity Research.</p>
+<p><strong>sDiv Working Group</strong>, German Center for Integrative Biodiversity Research. <em>$60,000 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2016</code>
-<strong>NSF Biocollections Postdoctoral Fellow</strong>, University of Florida.  (declined)</p>
+<strong>NSF Biocollections Postdoctoral Fellow</strong>, University of Florida.  (declined) <em>$137,000 USD</em></p>
 
-<p><strong>NIMBioS Postdoctoral Fellow</strong>, University of Tennessee. (declined)</p>
+<p><strong>NIMBioS Postdoctoral Fellow</strong>, University of Tennessee. (declined) <em>$108,000 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2015</code>
-<strong>Philomathia Graduate Student Fellowship</strong>, University of California Berkeley.</p>
+<strong>Philomathia Graduate Student Fellowship</strong>, University of California Berkeley. <em>$20,000 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2012-2017</code>
-<strong>National Science Foundation Grant DEB 1241253</strong>, As a graduate student I contributed to the design, writing, and execution of this grant.</p>
+<strong>National Science Foundation Grant DEB 1241253</strong>, Community level approach to understanding speciation in Hawaiian arthropod lineages. As a graduate student I contributed to the design, writing, and execution of this grant.</p>
 
 <p><code class="language-plaintext highlighter-rouge">2011-2015</code>
-<strong>Graduate Research Fellowship</strong>, National Science Foundation.</p>
+<strong>Graduate Research Fellowship</strong>, National Science Foundation.  <em>$121,000 USD</em></p>
 
-<p><strong>Walker Fund for Entomology</strong>, Essig Museum of Entomology.</p>
+<p><strong>Walker Fund for Entomology</strong>, Essig Museum of Entomology. <em>$4,200 USD</em></p>
 
 <p><code class="language-plaintext highlighter-rouge">2010</code>
-<strong>Fulbright Scholar</strong>, Pontificía Universidad Católica de Chile.</p>
+<strong>Fulbright Scholar</strong>, Pontificía Universidad Católica de Chile. <em>$12,000 USD</em></p>
 
 <h2 id="awards--honors">Awards &amp; Honors</h2>
 <p><code class="language-plaintext highlighter-rouge">2015</code>
@@ -323,11 +307,4 @@ Topics included computational phylogenetics, soundscape ecology in birds, collec
   <li><em>Proceedings of the Royal Society B</em></li>
   <li><em>Sustainability</em></li>
 </ul>
-
-    </div>
-  </div>
-
-  <div class="footer"></div>
-
-</body>
-</html>
+:ET
